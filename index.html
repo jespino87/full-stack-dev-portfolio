@@ -15,20 +15,18 @@
       crossorigin="anonymous"
     />
 
-   <link rel="stylesheet" 
-   type="text/css" 
-   href="styles.css" />
+   <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-     <header id="hero" role="banner">
+     <header id="hero">
       <h1>
-        Hi, <span class="highlight">I'm Jorge Espino</span>, I'm a Fullstack 
-        Developer</h1>
+        Hi,I'm<span class="highlight"> Jorge Espino</span>, I'm a Fullstack 
+        Developer
         </h1>
-        </header>
-    <nav role="navigation">
+    </header>
+    <nav>
     <div class="hamburger">&#9776;</div>
-      <ul class="menu">
+      <ul class="menu hidden">
         <ul>
           <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -36,18 +34,23 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
      </nav>
-    <main role="main">
+    <main aria-live="polite">
     <section id="about">
        <h2>About Me</h2>
         
-        <div class="content">
-       
-          <div>
+          <div class="content">
+            <img
+              class="headshot-img"
+              src="./imgs/shot.jpg"
+              alt="Picture of Jorge Espino"
+            />
+            <div>
           <p>
-            My interest for coding came when I came across a company called Career Karma.<br /><br />
+            My excitement for coding came when I came across a company called Career Karma.<br /><br />
             Since then my interest has grown beyond just that and evolved into
             full-on web development. I like solving challenging
-            problems and algorithms and creating beautiful designs.<br /><br />
+            problems and algorithms and creating beautiful designs. I love working on large projects that involves creativity with teams.
+            It is great to collaborate with different peoople and produce great applications<br /><br />
             When I am not coding you can find me:
           </p>
           <ul>
@@ -65,9 +68,13 @@
          <div class="project-container content">
           <div class="project">
             <h3>Fabulous Borderlands 2 Quiz</h3>
-            
+            <img
+            class="project-img"
+            src="./imgs/quizapp.png"
+            alt="Picture of Borderlands 2 Quiz App"
+          />
           
-            <p>
+           <p>
               <strong class="highlight"> Fabulous Borderlands 2 Quiz</strong> is a simple quiz
               application where you are asked a series of basic gaming trivia
               questions. You are given appropriate feedback after each question,
@@ -77,20 +84,25 @@
             <ul class="technologies">
               <li>HTML</li>
               <li>CSS</li>
-              <li>JavScript</li>
+              <li>JavaScript</li>
               <li>jQuery</li>
             </ul>
         </div class="controls">
+        <a href="https://github.com/thinkful-ei-leopard/jorge-chris-quiz-app/"  target="_blank" class="code button">View Code</a>
+        <a href="https://thinkful-ei-leopard.github.io/jorge-chris-quiz-app/"   target="_blank" class="live button">Live Page</a>
            
           </div>
         </div>
       </div>
-      
-
-          <div class="project">
+            <div class="project">
             <h3>Bookmark Midwest</h3>
+            <img
+              class="project-img"
+              src="./imgs/bookmarks.png"
+              alt="Picture of Bookmarks App"
+            />
             <p>
-              <strong>Bookmark Midwest</strong> is a midwest location to keep
+              <strong class="highlight">Bookmark Midwest</strong> is a midwest location to keep
               track of, rate, and view all of your favorite websites across the
               internet. Long gone is the bookmarks bar, it is the time of the
               bookmarks web page!
@@ -100,12 +112,12 @@
             
               <li>HTML</li>
               <li>CSS</li>
-              <li>JavScript</li>
+              <li>JavaScript</li>
               <li>jQuery</li>
               </ul>
               <div class= "controls">
-              <a href=" target="_blank">View Code</a>
-              <a href=" target="_blank"><View Code</a>
+              <a href=  "https://github.com/jespino87/jorge-bookmark-app/"    target="_blank" class="code button">View Code</a>
+              <a href=  "https://jespino87.github.io/jorge-bookmark-app/"     target="_blank" class="live button">Live Page</a>
 
               </div>
           </div>

@@ -1,4 +1,4 @@
-# JORGE ESPINO - Fullstack Developer Portfolio
+# Jorge Espino - Fullstack Web Development Portfolio
 
 Mobile Layout
 https://docs.google.com/document/d/1f-IAn9qbAyzLqCTJL-Li3HG_6ElOSO_CxlvK_PXsHck/edit?usp=sharing
